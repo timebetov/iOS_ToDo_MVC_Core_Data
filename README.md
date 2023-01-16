@@ -24,6 +24,7 @@ I implemented a few crucial methods from TableView. There you can add and delete
  ## Go ahead to view app.
 > Welcome screen
  <img src="/assets/CategoriesPage.png" alt="WelcomeScreen" width="400"/>
+
  ##### There you can:
 * Add a new category by give name which you want, not empty!
 * Remove category by swiping to left!
@@ -31,6 +32,7 @@ I implemented a few crucial methods from TableView. There you can add and delete
 
 > Todo list page
 <img src="/assets/ItemsPage.png" alt="ToDoListScreen" width="400"/>
+
 ##### There you can:
 * Do things like in welcome screen except last one.
 * You can search the item.
