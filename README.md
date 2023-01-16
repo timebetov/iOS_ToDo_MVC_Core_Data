@@ -1,7 +1,8 @@
 # Todo iOS app j'DIRN
 
 ## P.S. First of all, I am sorry if I will make mistakes. My English is not so good, however I'll try to explain you!
-![LaunchScreen](./assets/LaunchScreen.png =250x250)
+
+<img src="./assets/LaunchScreen.png" alt="drawing" width="200"/>
 By the way this image made in Launch Screen :D
 It's my first repository. And I am sorry for all... :)
 
