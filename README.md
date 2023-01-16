@@ -1,7 +1,7 @@
 # Todo iOS app j'DIRN
 
 ## P.S. First of all, I am sorry if I will make mistakes. My English is not so good, however I'll try to explain you!
-![LaunchScreen](./assets/LaunchScreen.png | width=100)
+![LaunchScreen](./assets/LaunchScreen.png){:height="150px" width="150px"}
 By the way this image made in Launch Screen :D
 It's my first repository. And I am sorry for all... :)
 
@@ -22,14 +22,14 @@ I implemented a few crucial methods from TableView. There you can add and delete
 
  ## Go ahead to view app.
 > Welcome screen
- ![WelcomeScreen](/assets/CategoriesPage.png | width=150)
+ ![WelcomeScreen](/assets/CategoriesPage.png =150x)
  ##### There you can:
 * Add a new category by give name which you want, not empty!
 * Remove category by swiping to left!
 * And last you can go into your categories.
 
 > Todo list page
-![TodoListScreen](./assets/ItemsPage.png | width=150)
+![TodoListScreen](./assets/ItemsPage.png =150x)
 ##### There you can:
 * Do things like in welcome screen except last one.
 * You can search the item.
