@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		991B037E296E9FCC00A8FE9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B037D296E9FCC00A8FE9E /* AppDelegate.swift */; };
 		991B0380296E9FCC00A8FE9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B037F296E9FCC00A8FE9E /* SceneDelegate.swift */; };
-		991B0382296E9FCC00A8FE9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B0381296E9FCC00A8FE9E /* ViewController.swift */; };
+		991B0382296E9FCC00A8FE9E /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B0381296E9FCC00A8FE9E /* TodoListViewController.swift */; };
 		991B0385296E9FCC00A8FE9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991B0383296E9FCC00A8FE9E /* Main.storyboard */; };
 		991B0388296E9FCC00A8FE9E /* j_DIRN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991B0386296E9FCC00A8FE9E /* j_DIRN.xcdatamodeld */; };
 		991B038A296E9FCC00A8FE9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991B0389296E9FCC00A8FE9E /* Assets.xcassets */; };
 		991B038D296E9FCC00A8FE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991B038B296E9FCC00A8FE9E /* LaunchScreen.storyboard */; };
+		996E6DE3297555BF005C7545 /* ItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996E6DE1297555BF005C7545 /* ItemTableCell.swift */; };
+		996E6DE4297555BF005C7545 /* ItemTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 996E6DE2297555BF005C7545 /* ItemTableCell.xib */; };
+		9990FEA5296EE28400A913FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9990FEA4296EE28400A913FE /* Constants.swift */; };
+		99BD83562972B72100423357 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD83552972B72100423357 /* CategoryViewController.swift */; };
+		99BD835A297308A000423357 /* DataModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BD8359297308A000423357 /* DataModelManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		991B037A296E9FCC00A8FE9E /* j'DIRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "j'DIRN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		991B037D296E9FCC00A8FE9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		991B037F296E9FCC00A8FE9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		991B0381296E9FCC00A8FE9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		991B0381296E9FCC00A8FE9E /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		991B0384296E9FCC00A8FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		991B0387296E9FCC00A8FE9E /* j_DIRN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = j_DIRN.xcdatamodel; sourceTree = "<group>"; };
 		991B0389296E9FCC00A8FE9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		991B038C296E9FCC00A8FE9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		991B038E296E9FCC00A8FE9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996E6DE1297555BF005C7545 /* ItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableCell.swift; sourceTree = "<group>"; };
+		996E6DE2297555BF005C7545 /* ItemTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableCell.xib; sourceTree = "<group>"; };
+		9990FEA4296EE28400A913FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		99BD83552972B72100423357 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		99BD8359297308A000423357 /* DataModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +70,51 @@
 			children = (
 				991B037D296E9FCC00A8FE9E /* AppDelegate.swift */,
 				991B037F296E9FCC00A8FE9E /* SceneDelegate.swift */,
-				991B0381296E9FCC00A8FE9E /* ViewController.swift */,
-				991B0383296E9FCC00A8FE9E /* Main.storyboard */,
-				991B0389296E9FCC00A8FE9E /* Assets.xcassets */,
-				991B038B296E9FCC00A8FE9E /* LaunchScreen.storyboard */,
+				99D8448F296FF7B000FB7A36 /* Controllers */,
+				99D8448E296FF7A500FB7A36 /* Model */,
+				99D84490296FF7C100FB7A36 /* Views */,
+				99D84491296FF7E000FB7A36 /* Supporting files */,
 				991B038E296E9FCC00A8FE9E /* Info.plist */,
-				991B0386296E9FCC00A8FE9E /* j_DIRN.xcdatamodeld */,
 			);
 			path = "j'DIRN";
+			sourceTree = "<group>";
+		};
+		99D8448E296FF7A500FB7A36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				991B0386296E9FCC00A8FE9E /* j_DIRN.xcdatamodeld */,
+				99BD8359297308A000423357 /* DataModelManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99D8448F296FF7B000FB7A36 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				99BD83552972B72100423357 /* CategoryViewController.swift */,
+				991B0381296E9FCC00A8FE9E /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		99D84490296FF7C100FB7A36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				991B0383296E9FCC00A8FE9E /* Main.storyboard */,
+				996E6DE1297555BF005C7545 /* ItemTableCell.swift */,
+				996E6DE2297555BF005C7545 /* ItemTableCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		99D84491296FF7E000FB7A36 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				991B0389296E9FCC00A8FE9E /* Assets.xcassets */,
+				991B038B296E9FCC00A8FE9E /* LaunchScreen.storyboard */,
+				9990FEA4296EE28400A913FE /* Constants.swift */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				991B038D296E9FCC00A8FE9E /* LaunchScreen.storyboard in Resources */,
+				996E6DE4297555BF005C7545 /* ItemTableCell.xib in Resources */,
 				991B038A296E9FCC00A8FE9E /* Assets.xcassets in Resources */,
 				991B0385296E9FCC00A8FE9E /* Main.storyboard in Resources */,
 			);
@@ -141,10 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991B0382296E9FCC00A8FE9E /* ViewController.swift in Sources */,
+				9990FEA5296EE28400A913FE /* Constants.swift in Sources */,
+				99BD835A297308A000423357 /* DataModelManager.swift in Sources */,
+				991B0382296E9FCC00A8FE9E /* TodoListViewController.swift in Sources */,
 				991B0388296E9FCC00A8FE9E /* j_DIRN.xcdatamodeld in Sources */,
 				991B037E296E9FCC00A8FE9E /* AppDelegate.swift in Sources */,
+				99BD83562972B72100423357 /* CategoryViewController.swift in Sources */,
 				991B0380296E9FCC00A8FE9E /* SceneDelegate.swift in Sources */,
+				996E6DE3297555BF005C7545 /* ItemTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -274,7 +326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -294,11 +346,13 @@
 				DEVELOPMENT_TEAM = YN75G3Z3G7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "j'DIRN/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "j'DIRN";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +360,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kaz.timebetov.j-DIRN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,11 +379,13 @@
 				DEVELOPMENT_TEAM = YN75G3Z3G7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "j'DIRN/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "j'DIRN";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +393,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "kaz.timebetov.j-DIRN";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
