@@ -15,7 +15,7 @@ My first pet-project is todo list app for iOS. I made it following the Angela Yu
 I implemented a few crucial methods from TableView. There you can add and delete items. In addition I added Search Bar. All your changes will be saved!
  
 
- ## Problems I have encountered.
+ ## Issues I have encountered.
 
  * So far, I do not know, but I removed the 'lazy' keyword from AppDelegate in Variable 'persistentContainer'. Because, app can not run. I could solved it, only by deleting it.
  * I could not save changes when items moved to other row. So, I decided to do not implement 'moveRowAt' methods from Table View, delegate.
