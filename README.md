@@ -1,10 +1,10 @@
 # Todo iOS app j'DIRN
 
-## P.S. First of all, I am sorry if I will make mistakes. My English is not so good, however I'll try to explain you!
+## P.S. First of all, If I make mistakes, I am sorry! My English is not so good, however I try to explain you!
 <img src="./assets/LaunchScreen.png" alt="Author" width="200"/>
 
-By the way this image made in Launch Screen :D
-It's my first repository. And I am sorry for all... :)
+By the way this image is made in Launch Screen :D
+It is my first repository. And I am sorry for all... :)
 
 ### A fully functional EXAMPLE project written in Swift
 
